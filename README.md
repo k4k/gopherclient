@@ -22,7 +22,7 @@ Coming soon:
 ### Source
 
 ```#!bash
-$ go install github.com/prologic/gopherclient
+$ make && make install
 ```
 
 Make sure you have QT 5.6+ installed:
@@ -55,6 +55,14 @@ requirements:
 
 The biggest problem in trying to support Ubuntu was getting QTWebgine installed
 (there are no packages yet).
+
+### Fedora Linux
+
+You'll need `qt5-qtbase-devel` and `webkitgtk3-devel`:
+
+```#!bash
+# sudo dnf install qt5-qtbase-devel webkitgtk3-devel
+```
 
 ## Usage
 
